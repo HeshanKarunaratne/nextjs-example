@@ -3,3 +3,6 @@
 #### Install Next JS
 npx create-next-app@13.1.6
 
+#### Install Tailwind css
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
