@@ -1,5 +1,10 @@
+"use client";
+
 export default function Home() {
+
   return (
-    <div>Home</div>
+    <section>
+      <h1>Home</h1>
+    </section>
   )
 }
