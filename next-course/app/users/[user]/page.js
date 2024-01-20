@@ -8,4 +8,4 @@ function User({ params }) {
     )
 }
 
-export default User
+export default User;
