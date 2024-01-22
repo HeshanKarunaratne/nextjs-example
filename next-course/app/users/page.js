@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from 'react'
+import AccordionUI from '../../components/AccordionUI';
 
-
-function AddNewUser() {
+function Users() {
 
     const [name, setName] = useState("");
     const [age, setAge] = useState("");
@@ -25,13 +25,10 @@ function AddNewUser() {
     }
 
     return (
-        <div className='flex flex-col'>
-            <input className='py-2' type='text' onChange={(e) => setName(e.target.value)} value={name} placeholder='Enter name' />
-            <input className='py-2' type='number' onChange={(e) => setAge(e.target.value)} value={age} placeholder='Enter age' />
-            <input className='py-2' type='text' onChange={(e) => setEmail(e.target.value)} value={email} placeholder='Enter email' />
-            <button onClick={addewUserHandler}>Save User</button>
+        <div className='flex flex-col justify-center items-center mt-10'>
+            <AccordionUI />
         </div>
     )
 }
 
-export default AddNewUser
+export default Users;
